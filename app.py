@@ -18,12 +18,7 @@ st.sidebar.write("Office Hours: By Appointment")
 st.subheader("About This Class")
 st.write("This class focuses on practical applications of AI and data science tools, including the use of platforms like Streamlit for project deployment.")
 
-st.button('Hit me')
-st.data_editor('Edit data', data)
-st.checkbox('Check me out')
-st.radio('Pick one:', ['nose','ear'])
-st.selectbox('Select', [1,2,3])
-st.multiselect('Multiselect', [1,2,3])
+
 st.slider('Slide me', min_value=0, max_value=10)
 st.select_slider('Slide to select', options=[1,'2'])
 st.text_input('Enter some text')
