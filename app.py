@@ -31,10 +31,3 @@ st.download_button('On the dl', data)
 st.camera_input("一二三,茄子!")
 st.color_picker('Pick a color')
 
-# Insert a chat message container.
->>> with st.chat_message("user"):
->>>    st.write("Hello 👋")
->>>    st.line_chart(np.random.randn(30, 3))
-
-# Display a chat input widget.
->>> st.chat_input("Say something")
